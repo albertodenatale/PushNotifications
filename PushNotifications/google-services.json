@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "226661047026",
+    "firebase_url": "https://pushnotifications-8bd47.firebaseio.com",
+    "project_id": "pushnotifications-8bd47",
+    "storage_bucket": "pushnotifications-8bd47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226661047026:android:3c44522b4bc7d06f910e6b",
+        "android_client_info": {
+          "package_name": "it.albertodenatale.pushnotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226661047026-cdtgc2q1237jgd5vhc4o4er9svt7osue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCglchTW45eh7TI3oOAm_jZ-Ak0E0wbRHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226661047026-cdtgc2q1237jgd5vhc4o4er9svt7osue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

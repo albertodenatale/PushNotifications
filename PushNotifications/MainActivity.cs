@@ -2,6 +2,10 @@
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Runtime;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Push;
 
 namespace PushNotifications
 {
@@ -14,6 +18,9 @@ namespace PushNotifications
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+
+            AppCenter.LogLevel = LogLevel.Verbose;
+            AppCenter.Start("key here", typeof(Analytics), typeof(Crashes), typeof(Push));
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
